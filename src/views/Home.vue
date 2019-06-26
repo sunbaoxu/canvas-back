@@ -1,18 +1,23 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div class="home-wrap">
+    <canvas-back/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
+import CanvasBack from '@/components/CanvasBack.vue'; 
 @Component({
   components: {
-    HelloWorld,
+    CanvasBack,
   },
 })
 export default class Home extends Vue {}
 </script>
+<style lang="scss" scoped>
+.home-wrap{
+  height: 100vh;
+  background: url('/bx-canvas/static/312241.jpg') center no-repeat;
+  background-size: cover;
+}
+</style>
