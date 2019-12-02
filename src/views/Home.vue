@@ -1,7 +1,6 @@
 <template>
   <div class="home-wrap">
     <canvas-back/>
-    <router-link rel="stylesheet" to="/about">sdafafaf</router-link>
   </div>
 </template>
 
@@ -20,13 +19,5 @@ export default class Home extends Vue {}
   height: 100vh;
   background: url('~@/assets/312241.jpg') center no-repeat;
   background-size: cover;
-}
-a{
-  color: red;
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-size: 100px;
-  z-index: 9999;
 }
 </style>
