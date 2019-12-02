@@ -17,7 +17,7 @@ export default class Home extends Vue {}
 <style lang="scss" scoped>
 .home-wrap{
   height: 100vh;
-  background: url('/static/312241.jpg') center no-repeat;
+  background: url('~@/assets/312241.jpg') center no-repeat;
   background-size: cover;
 }
 </style>
