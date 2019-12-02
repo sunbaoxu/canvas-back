@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.d0ccf12f3de4d46e291d7537a53019ef.js"
+  "precache-manifest.45f8a661ab57bdee1253aa4cbe844e7c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "canvas"});
