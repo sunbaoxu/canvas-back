@@ -23,7 +23,7 @@ export default class CanvasBack extends Vue {
     //粒子个数
     this.spotLengthFn();
     window.requestAnimationFrame = window.requestAnimationFrame ||  window.webkitRequestAnimationFrame ;
-    window.onresize = (e)=>{
+    window.onresize = (e:any)=>{
       this.canvasSize();
     }
     
@@ -74,14 +74,14 @@ export default class CanvasBack extends Vue {
   //鼠标位置
   mouseWarea () {
     this.warea = {x: null, y: null, max: 20000};
-    window.onmousemove = (e) =>{
+    window.onmousemove = (e:any) =>{
       e = e || window.event;
       this.warea.x = e.clientX;
       this.warea.y = e.clientY;
 
 
     }
-    window.onmouseout = (e)=> {
+    window.onmouseout = (e:any)=> {
       this.warea.x = null;
       this.warea.y = null;
     }
