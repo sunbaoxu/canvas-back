@@ -5,7 +5,7 @@ module.exports = {
      * baseUrl: process.env.NODE_ENV==='production'?"https://cdn.didabisai.com/front/":'front/',
      */
     // 项目部署的基础路径
-    baseUrl: "/bx-canvas/",
+    baseUrl: "./",
     // 构建好的文件输出到哪里
     outputDir: "canvas-dist", 
     // assetsDir:'/bx-canvas/',
